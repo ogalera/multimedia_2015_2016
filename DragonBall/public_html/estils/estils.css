@@ -1,0 +1,81 @@
+body{
+    background-image: url("../resources/fons.jpg"); 
+    background-size: cover;
+}
+
+header{
+    width:90%;
+    max-width: 1000px;
+    margin:auto;
+}
+
+nav{
+    background:#528fd5;
+    margin-top: 20px;
+    position: relative;
+}
+
+nav ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
+
+nav > ul > li{
+    float:left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    display:block;
+    padding:10px 20px;
+}
+
+nav ul li a:hover{
+    background:#3669a3;
+}
+
+nav > ul > li:hover div{
+    display:table;
+}
+
+/**submenu**/
+nav ul li div {
+    width:35%; /*mida de la caixa del submenu*/
+    position:absolute;
+    background:#ccc;
+    box-sizing: border-box;
+    display:none;
+}
+
+nav ul li div ul{
+    width:20%;
+    display:table-cell;
+    border-right: 1px solid rgba(255,255,255,.5);
+    box-sizing:border-box;
+}
+    
+nav ul li div ul:last-child{
+    border:none;
+}
+
+nav ul li div ul li a {
+    color:#000;
+}
+
+nav ul li div ul li a:hover{
+    color:#fff;
+}
+
+.contingut{
+    height: 90%;
+    max-width: 1000px;
+    margin:auto;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.text{
+    width: 100%;
+}

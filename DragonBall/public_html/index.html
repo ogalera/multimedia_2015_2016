@@ -1,19 +1,107 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>Dragon ball</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dragon Ball</title>
+        <link rel="stylesheet" href="estils/estils.css"/>
+        <script>
+            function canviarPagina(link){
+                document.getElementById('contingut').innerHTML='<object type="text/html" data="'+link+'" ></object>';
+            }
+        </script>
     </head>
     <body>
-        <h1>Dragon ball</h1>
-        <script type="text/javascript">
-            alert('Hello Moi!');
-        </script>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">La serie</a>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a onclick="canviarPagina('serie/pgeEB7BD.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>En busca de les 7 boles de drac
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="canviarPagina('serie/pge21TAM.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>21e torneig d'arts marcials
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="canviarPagina('serie/pgeECV.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>Exercit de la cinta vermella
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="canviarPagina('serie/pge22TAM.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>22e torneig d'arts marcials
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="canviarPagina('serie/pgeSCP.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>Satanas cor petit
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="canviarPagina('serie/pge23TAM.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>23e torneig d'arts marcials
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Personatges</a>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a onclick="canviarPagina('personatges/pgePP.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>Personatges principals
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="canviarPagina('personatges/pgePS.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>Personatges secundaris
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="canviarPagina('personatges/pgeE.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>Enemics
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Autor</a>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a onclick="canviarPagina('autor/pgeAT.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>Akira Toriyama
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Multimedia</a>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a onclick="canviarPagina('multimedia/pgeI.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>Imatges
+                                    </a>
+                                    <a onclick="canviarPagina('multimedia/pgeA.html')">
+                                        <img class="imgIndex" src="resources/bola_drac_1.png"/>Audios
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="contingut" class="contingut"/>
     </body>
 </html>
