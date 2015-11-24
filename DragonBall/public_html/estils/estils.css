@@ -42,6 +42,7 @@ nav > ul > li:hover div{
 }
 
 /**submenu**/
+
 nav ul li div {
     width:35%; /*mida de la caixa del submenu*/
     position:absolute;
