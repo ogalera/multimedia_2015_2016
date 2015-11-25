@@ -1,4 +1,85 @@
 body{
+    font-family: Arial;
+    background-image: url("../resources/fons.jpg"); 
+    background-size: cover;
+}
+
+/*Estil General*/
+nav{
+    width:90%;
+    max-width: 1000px;
+    margin:auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin:auto;
+}
+
+
+
+nav li {
+    line-height: 3rem;
+    position: relative;
+}
+nav li ul{
+    position: absolute;
+}
+nav a{
+    color: #ddd;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    //transition: .4s;
+}
+nav a:hover{
+    background: rgba(0,0,0,.5);
+}
+
+
+/*Primer nivell*/
+nav > ul {
+    background: #C64B4B;
+    display: table;
+    width: 100%;
+}
+nav > ul > li {
+    float:left;
+}
+
+
+
+/*Segon nivell*/
+nav li li{
+    background: #222;
+    max-height: 0;
+    //transition: all .6s;
+    overflow: hidden;
+    width: 200%;
+}
+
+nav li:hover > ul > li{
+    max-height: 1000px;
+    overflow: visible;
+}
+nav > ul > li > ul {
+    top: 100%;
+}
+
+/*Tercer nivell*/
+
+nav ul ul ul{
+    left:100%;
+    top:0;
+}
+
+.contingut{
+    height: 90%;
+    max-width: 1000px;
+    margin:auto;
+    background: rgba(255, 255, 255, 0.9);
+}
+/*body{
     background-image: url("../resources/fons.jpg"); 
     background-size: cover;
 }
@@ -39,12 +120,12 @@ nav ul li a:hover{
 
 nav > ul > li:hover div{
     display:table;
-}
+}*/
 
 /**submenu**/
-
+/*
 nav ul li div {
-    width:35%; /*mida de la caixa del submenu*/
+    width:50%; /*mida de la caixa del submenu
     position:absolute;
     background:#ccc;
     box-sizing: border-box;
@@ -79,4 +160,4 @@ nav ul li div ul li a:hover{
 
 .sub{
     width: 400px;
-}
+}*/
