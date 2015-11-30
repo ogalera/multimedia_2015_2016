@@ -7,7 +7,7 @@ body{
 /*Estil General*/
 nav{
     width:90%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin:auto;
 }
 nav ul {
@@ -75,7 +75,7 @@ nav ul ul ul{
 
 .contingut{
     height: 90%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin:auto;
     background: rgba(255, 255, 255, 0.9);
 }
