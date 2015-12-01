@@ -79,6 +79,42 @@ nav ul ul ul{
     margin:auto;
     background: rgba(255, 255, 255, 0.9);
 }
+
+.imatgeEsquerra{
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+}
+
+.imgEsquerra{
+    float:left; /*para ponerlo a la izquierda */
+    margin:20px; /* un margen cualquiera */
+}
+.imgDreta{
+    float:right; /*para ponerlo a la derecha*/
+    margin:20px; /* un margen cualquiera */
+}
+.imgEsquerra img, .imgDreta img{
+    display: block;
+    margin: 0 auto; /* centrar imagen */
+    border-width: 2px;
+    border-style:solid;
+    border-color: #cc6633; /* color del borde */
+}
+.imgEsquerra > p, .imgDreta > p{
+    text-align:center;
+    font-weight:bold;
+    font-size: 9px;
+    background-color: #CF2020;/*#cc6633; /* color del fondo del pie de foto = borde*/
+    color:white;
+
+}
+
+
+
 /*body{
     background-image: url("../resources/fons.jpg"); 
     background-size: cover;
