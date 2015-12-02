@@ -10,6 +10,7 @@ and open the template in the editor.
 body{
 
     text-align : justify;
+    font-family: "Homer Simpson", cursive; 
 }
 .imgCentre{
     float: none; /*para ponerlo a la izquierda */
