@@ -1,32 +1,24 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 02-dic-2015, 1:41:12
-    Author     : Moi
-*/
+
 body{
 
     text-align : justify;
-    font-family: "Homer Simpson", cursive; 
+    font-family: verdana; 
 }
 .imgCentre{
-    float: none; /*para ponerlo a la izquierda */
-    margin:20px; /* un margen cualquiera */
+    float: none;
+    margin:20px; 
 }
 .imgEsquerra{
-    float:left; /*para ponerlo a la izquierda */
-    margin:20px; /* un margen cualquiera */
+    float:left; /*per ficar-lo a la esquerra */
+    margin:20px; 
 }
 .imgDreta{
-    float:right; /*para ponerlo a la derecha*/
-    margin:20px; /* un margen cualquiera */
+    float:right; /*per ficar-lo a la dreta*/
+    margin:20px; 
 }
 .imgEsquerra img, .imgDreta img, imgCentre img{
     display: block;
-    margin: 0 auto; /* centrar imagen */
+    margin: 0 auto; 
     border-width: 2px;
     border-style:solid;
     border-color: #cc6633; /* color del borde */
@@ -35,7 +27,7 @@ body{
     text-align:center;
     font-weight:bold;
     font-size: 12px;
-    background-color: #CF2020;/*#cc6633; /* color del fondo del pie de foto = borde*/
+    background-color: #cc6633; /* color del fonds dels peus de foto*/
     color:white;
 
 }
@@ -43,6 +35,13 @@ body{
     text-align:center;
     font-weight:bold;
     font-size: 12px;
-    /*background-color: #CF2020;/*#cc6633; /* color del fondo del pie de foto = borde*/
     color:black;
+}
+.video > p{
+    text-align:center;
+    font-weight:bold;
+    font-size: 15px;
+    background-color: #CF2020;
+    color:white;
+
 }
