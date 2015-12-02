@@ -3,16 +3,20 @@
         <meta charset="UTF-8">
         <title>Dragon Ball</title>
         <link rel="stylesheet" href="estils/estils.css"/>
+        <link rel="shortcut icon" href="resources/bola_drac_1.png" type="image/png"/>
+
         <script>
             function canviarPagina(link){
                 document.getElementById('contingut').innerHTML='<object style="width:100%; height:100%;" type="text/html" data="'+link+'" ></object>';
-            }
+            }  
         </script>
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="#"><img class="imgIndex" src="resources/bola_drac_1.png"/>La serie</a>
+                <li>
+                    <a href="javascript:location.reload()">
+                        <img class="imgIndex" src="resources/bola_drac_1.png"/>La serie</a>
                     <ul>
                         <li>
                             <a href="#" onclick="canviarPagina('serie/pgeEB7BD.html')">En busca de les 7 boles de drac</a>
@@ -128,27 +132,39 @@
 
                 </li>
                 <li>
+                    <a href="#" onclick="canviarPagina('personatges/pgaPS.html')">
+                        <img class="imgIndex" src="resources/bola_drac_1.png"/>Moments Epics</a>
+                    <ul>
+                        <li>
+                            <a href="#" onclick="canviarPagina('multimedia/kameameRoshi.html')">El primer Kame Hame Ha de la Serie</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="canviarPagina('multimedia/final21Torneig.html')">Final 21º Torneig Arts Marcials</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="canviarPagina('multimedia/mortKrilin.html')">La mort d'en Krilin</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="canviarPagina('multimedia/roshiVsSatanas.html')">Muten Roshi VS Satanas</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="canviarPagina('multimedia/gokuVsSatanas.html')">Victoria de Goku a Satanas</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li>
                     <a href="#" onclick="canviarPagina('autor/pgeAT.html')">
                         <img class="imgIndex" src="resources/bola_drac_1.png"/>Autor
                     </a>
                 </li>
-                <li>
-                    <a href="#"><img class="imgIndex" src="resources/bola_drac_1.png"/>Multimedia</a>
-
-                    <ul>
-                        <li>
-                            <a href="#" onclick="canviarPagina('multimedia/pgeI.html')">Imatges</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="canviarPagina('multimedia/pgeA.html')">Audios</a>
-                        </li>
-                    </ul>
-
-                </li>
             </ul>
         </nav>
         <div id="contingut" class="contingut">
-            <iframe width="427" height="240" src="https://www.youtube.com/embed/fih_-fEHXc8" frameborder="0" allowfullscreen></iframe>
+            <script>
+                document.getElementById('contingut').innerHTML='<object style="width:100%; height:100%;" type="text/html" data="inici.html" ></object>';
+            </script>
+            
         </div>
     </body>
 </html>

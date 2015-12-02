@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-dic-2015, 0:30:58
+    Author     : Moi
+*/
+
+.video > p{
+    text-align:center;
+    font-weight:bold;
+    font-size: 15px;
+    background-color: #CF2020;/*#cc6633; /* color del fondo del pie de foto = borde*/
+    color:white;
+
+}

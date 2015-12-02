@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-dic-2015, 1:41:12
+    Author     : Moi
+*/
+body{
+
+    text-align : justify;
+}
+.imgEsquerra{
+    float:left; /*para ponerlo a la izquierda */
+    margin:20px; /* un margen cualquiera */
+}
+.imgDreta{
+    float:right; /*para ponerlo a la derecha*/
+    margin:20px; /* un margen cualquiera */
+}
+.imgEsquerra img, .imgDreta img{
+    display: block;
+    margin: 0 auto; /* centrar imagen */
+    border-width: 2px;
+    border-style:solid;
+    border-color: #cc6633; /* color del borde */
+}
+.imgEsquerra > p, .imgDreta > p{
+    text-align:center;
+    font-weight:bold;
+    font-size: 9px;
+    background-color: #CF2020;/*#cc6633; /* color del fondo del pie de foto = borde*/
+    color:white;
+
+}

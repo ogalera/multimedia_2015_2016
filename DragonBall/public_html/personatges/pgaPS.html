@@ -9,8 +9,27 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function activar_css (css_file) {        
+            var fileref=document.createElement("link");
+            fileref.setAttribute("rel", "stylesheet");
+            fileref.setAttribute("type", "text/css");
+            fileref.setAttribute("href", css_file);
+            document.getElementsByTagName("head")[0].appendChild(fileref);
+            }       
+        </script> 
     </head>
     <body>
-        <div>TODO write content</div>
+        <div>
+            <center>
+            <div  style="margin: 50px 50px 50px 50px; float:center">
+                     <iframe width="854" height="480" src="https://www.youtube.com/embed/tQCq-tIfjjo" frameborder="0" allowfullscreen></iframe>
+                        <p>Dragon Ball opening</p>
+            </div>
+            </center>
+            <script>
+                activar_css("../estils/videos.css")
+            </script> 
+        </div>
     </body>
 </html>

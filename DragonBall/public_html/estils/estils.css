@@ -2,6 +2,7 @@ body{
     font-family: Arial;
     background-image: url("../resources/fons.jpg"); 
     background-size: cover;
+    text-align : justify;
 }
 
 /*Estil General*/
@@ -80,14 +81,7 @@ nav ul ul ul{
     background: rgba(255, 255, 255, 0.9);
 }
 
-.imatgeEsquerra{
-    float: left;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
 
-}
 
 .imgEsquerra{
     float:left; /*para ponerlo a la izquierda */
@@ -112,6 +106,7 @@ nav ul ul ul{
     color:white;
 
 }
+
 
 
 
